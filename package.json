@@ -1,0 +1,26 @@
+{
+  "name": "fela-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "start": "tsc && ts-node dist/index.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.11.3",
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "fela": "^6.2.2",
+    "fela-dom": "^8.0.2"
+  }
+}
